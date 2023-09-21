@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore</title>
+    <link href="https://fonts.googleapis.com/css?family=Playfair Display" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: "PLayfair Display" , sans-serif;
+            font-size: large;
+            text-shadow: 5px 5px 5px #000000;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(0, 0, 0);
+            color: rgb(225, 106, 255);
+        }
+
+        header::before {
+            background: url('https://source.unsplash.com/random/1600x900/?sportscar,BMW,mercedes,mustangGT,supra,') no-repeat center center/cover;
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.3;
+        }
+
+        .navigation {
+            font-family: 'Bree Serif', serif;
+            font-size: 20px;
+            display: flex;
+        }
+
+        .navigation2 {
+            font-family: 'Bree Serif', serif;
+            font-size: 20px;
+            display: flex;
+        }
+
+        li {
+            list-style: none;
+            padding: 20px 23px;
+        }
+
+        .recipes {
+            list-style: none;
+            padding: 10px 80px;
+        }
+
+        .navigation a {
+            text-decoration: none;
+            color: #40e2ff;
+        }
+
+        .navigation2 a {
+            text-decoration: none;
+            color: rgb(235, 164, 72);
+        }
+
+        a:hover {
+            color: rgb(247, 63, 133);
+        }
+
+        a:active {
+            color: rgb(224, 224, 107);
+        }
+        h1{
+            margin-top:10px;
+            margin-left:30px;
+            font-weight:1000;
+            font-size:40px;
+        }
+        .carname{
+            text-decoration:underline
+        }
+        .aboutcar{
+            margin-left:30px;
+            text-decoration:underline;
+        }
+        p{
+            margin:10px;
+        }
+        .recipes{
+            display:flex;
+        } 
+        .box{
+            height: 200px;
+            width: 200px;
+            border:50px solid rgb(255, 255, 255), ;
+            margin:50px 70px;
+            display: flex;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item"><a href="index.html">Home</a></li>
+                <li class="item"><a href="sup.html">Explore</a></li>
+                <li class="item"><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <hr>
+        <hr>
+        <nav class="navbar">
+            <ul class="navigation2">
+                <li class="cars"><a href="sup.html">Vintage</a></li>
+                <li class="cars"><a href="">Sports</a></li>
+                <li class="cars"><a href="luxary.html">Luxary</a></li>
+                <li class="cars"><a href="offroad.html">Off-road</a></li>
+               
+            </ul>
+        </nav>
+        <hr>
+        <hr>
+    </header>
+    <section>
+<h1>Sports</h1>
+<hr>
+<div class="recipes">
+    <div class="box"><a class="ig" href="audi.html" target="_blank"><img src="audi-r8.jpg" alt="Audi R8" style="width:300px;height:200px;"></a></div>
+    <div class="box"><a class="ig" href="mustang.html" target="_blank"><img src="mustang.jpg" alt="Ford Mustang" style="width:300px;height:200px;"></a></div>
+    <div class="box"><a class="ig" href="supra.html" target="_blank"><img src="supra-mk5.png" alt="Supra MK5" style="width:300px;height:200px;"></a></div>
+    <div class="box"><a class="ig" href="porsche.html" target="_blank"><img src="porche.jpg" alt="Porsche 911" style="width:300px;height:200px;"></a></div>
+    <div class="box"><a class="ig" href="lamborghini.html" target="_blank"><img src="lamborghini.png" alt="Lamborghini Aventador" style="width:300px;height:200px;"></a></div>
+</div>
+</section>
+ </body>

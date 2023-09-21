@@ -1,0 +1,50 @@
+!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <!-- Add your CSS styling here -->
+    <style>
+        /* Add your CSS styles for the Contact Us page here */
+        /* Ensure the page is visually appealing and easy to navigate */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+
+    <section>
+        <h2>Feedback and Reviews</h2>
+        <p>We value your feedback and reviews. Please share your thoughts and experiences with us:</p>
+
+        <form action="submit_feedback.php" method="POST">
+            <!-- Replace "submit_feedback.php" with your actual backend script for handling feedback -->
+            
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <label for="rating">Rating:</label>
+            <select id="rating" name="rating" required>
+                <option value="5">5 - Excellent</option>
+                <option value="4">4 - Very Good</option>
+                <option value="3">3 - Good</option>
+                <option value="2">2 - Fair</option>
+                <option value="1">1 - Poor</option>
+            </select>
+            
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </section>
+
+    <footer>
+        <!-- Add your footer content here (e.g., contact information) -->
+    </footer>
+</body>
+</html>
